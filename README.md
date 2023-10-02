@@ -32,6 +32,11 @@ sh install_dep.sh
 source TSMvenv/bin/activate
 ```
 
+- Or just install the pip dependencies:
+```
+pip3 install -r requirements.txt
+```
+
 - Install all the systems (takes ~15mins)
 
 ```bash
