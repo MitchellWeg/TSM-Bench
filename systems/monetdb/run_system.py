@@ -120,7 +120,7 @@ def run_query(query, rangeL , rangeUnit, n_st , n_s , n_it,host="localhost"):
 
 
 if __name__ == "__main__":
-	print('launching system moentdb')
+	print('launching system monetdb')
 
 	import os
 	import subprocess
