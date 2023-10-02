@@ -14,7 +14,7 @@ if [ "$dataset" = "d1" ];then
 	rm datasets -r
 	rm datasets.tar.gz
 
-	python3 generate_influx.py d1
+	python3 ./utils/generate_influx_narrow.py d1
 fi 
 
 
